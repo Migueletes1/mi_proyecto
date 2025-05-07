@@ -1,6 +1,5 @@
 package com.miproyecto.servlets;
 
-import com.miproyecto.modelo.Usuario;
 import com.miproyecto.modelo.usuario;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -14,7 +13,7 @@ import java.util.List;
 
 
 @WebServlet(name = "RegistroServlet", urlPatterns = {"/registro"})
-public class RegistroServlet extends HttpServlet {
+public class registro extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
